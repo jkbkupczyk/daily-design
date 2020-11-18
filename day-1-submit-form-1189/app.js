@@ -1,0 +1,1 @@
+const sel = document.querySelector("#category");

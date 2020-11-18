@@ -1,0 +1,78 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+@media screen and (min-width: 480px) {}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background-color: #EBF3FB;
+}
+
+#wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 0 0 10px #24245C;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#form {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2rem 4rem;
+}
+
+label {
+    color: #24245C;
+    line-height: 2rem;
+    margin: 0.8rem 0;
+}
+
+#top {
+    background-color: #24245C;
+    padding: 3rem 10rem;
+    color: whitesmoke;
+}
+
+.formInput {
+    border: 1px solid transparent;
+    border-bottom: 2px solid #B4B4C7;
+    outline: none;
+}
+
+button {
+    width: 42.5%;
+    color: whitesmoke;
+    background-color: #24245C;
+    height: 3.8rem;
+    border-radius: 50px;
+    outline: none;
+}
+
+button:hover{
+    background-color: #5252a7;
+}
+
+#btn {
+    padding: 1rem 3.5rem 3.5rem;
+}
+
+::placeholder {
+    color: #84849C;
+}
+
+input, select{
+    color: #24245C;
+}

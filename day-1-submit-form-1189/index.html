@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="top">
+            <h1>Submit a tool</h1>
+        </div>
+
+        <div id="form">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="formInput" placeholder="Your name">
+            <label for="link">Link to resource</label>
+            <input type="text" id="link" class="formInput" placeholder="Source link">
+            <label for="category">Category</label>
+            <select name="" id="category" class="formInput" required>
+                <option value="" aria-placeholder="select-cat" selected disabled>Select a category</option>
+                <option value="sketch">Sketch</option>
+                <option value="photoshop">Photoshop</option>
+                <option value="figma">Figma</option>
+                <option value="adobe">AdobeXD</option>
+                <option value="studio">Studio</option>
+            </select>
+        </div>
+
+        <div id="btn">
+            <button>Submit</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
