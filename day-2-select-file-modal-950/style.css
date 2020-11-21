@@ -1,0 +1,58 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+@media screen and (min-width: 480px) {}
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background-color: #EBEBF3;
+    color: #332E71;
+}
+
+#wrapper {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 0 0 10px #24245C;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+select{
+    width: 8.5rem;
+    color: #7E92E3;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+p{
+    color: #B2B5C8;
+}
+
+input[type=checkbox]:checked + p{
+    color: #332E71;
+}

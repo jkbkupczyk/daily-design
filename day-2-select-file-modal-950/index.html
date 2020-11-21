@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="form">
+            <h4>Choose File Types</h4>
+            <input type="radio" name="fileType" id="folders" checked> <label for="folders">Back up all files folders</label>
+            <input type="radio" name="fileType" id="media"> <label for="media">Back up photos and videos</label>
+
+            <ul>
+                <li><input type="checkbox" name="screens" id=""><p>Back up screenshots</p></li>
+                <li><input type="checkbox" name="raws" id=""><p>Back up RAW files</p></li>
+                <li><input type="checkbox" name="photos" id=""><p>Back up Photos Library metadata</p></li>
+            </ul>
+
+            <select name="advanced" id="">
+                <option value="" selected hidden>Advanced options</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
